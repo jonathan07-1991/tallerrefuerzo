@@ -17,33 +17,33 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-4">
-                    <form action="">
+                    <form action="agregarDatos.php" method="POST" class="mt-5 mb-5">
                         
                         <div class="form-group">
                             <label for="cedula">CEDULA</label>
-                            <input type="number" class="form-control" id="cc">
+                            <input type="number" class="form-control" id="cedula" name="cedula" >
                         </div>
                         <div class="form-group">
                             <label for="nombre">NOMBRE</label>
-                            <input type="text" class="form-control" id="nombre">
+                            <input type="text" class="form-control" id="nombre" name="nombre">
                         </div>
                         <div class="form-group">
                             <label for="apellido">APELLIDO</label>
-                            <input type="text" class="form-control" id="apellidos">
+                            <input type="text" class="form-control" id="apellido" name="apellido">
                         </div>
                         <div class="form-group">
                             <label for="edad">EDAD</label>
-                            <input type="number" class="form-control" id="edad">
+                            <input type="number" class="form-control" id="edad" name="edad">
                         </div>
                         <div class="form-group">
                             <label for="telefono">TELEFONO</label>
-                            <input type="number" class="form-control" id="telefono">
+                            <input type="number" class="form-control" id="telefono" name="telefono">
                         </div>
                         <div class="form-group">
                             <label for="direccion">DIRECCION</label>
-                            <input type="text" class="form-control" id="direccion">
+                            <input type="text" class="form-control" id="direccion" name="direccion">
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">REGISTRAR</button>
+                        <button type="submit" class="btn btn-primary btn-block" name="botonEnviar">REGISTRAR</button>
 
                     </form>
                 </div>
